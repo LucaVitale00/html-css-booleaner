@@ -1,0 +1,90 @@
+/* regole generali */
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+/* regole header */
+header{
+    background-image: url(../immagini/pattern.png);
+    background-color: rgb(55, 132, 205);
+    background-size: contain;
+}
+
+header img{
+    width: 200px;
+    height: 100px;
+   
+}
+
+
+/* regole main */
+main h1{
+    font-size: 40px;  
+}
+
+.colorGrey h3, main h1{
+    padding: 0;
+    margin: 0;
+}
+
+.colorGrey{
+    color: #808080;
+}
+
+main #speciale{
+    color: rgb(55, 132, 205);
+}
+
+main section, main section figure{
+    margin: 20px 0;
+}
+
+main section .highlighted{
+    background-color: yellow;
+}
+
+section ul{
+    padding-left: 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table thead tr th{
+    color: white;
+    background-color: #3784cd ;
+}
+
+table .short{
+    width: 20%;
+}
+
+table th{
+    text-align: left;
+}
+.specialTable{
+    background-color: #75c3dc;
+}
+
+/* regole footer */
+footer #backgroundUno{
+    width: 300px;
+    height: 200px;
+    background-image: url("../immagini/monitor.jpg");
+    background-size: cover;
+    margin: 20px 0;
+}
+
+footer #backgroundDue{
+    width: 300px;
+    height: 200px;
+    background-image: url("../immagini/graph.jpg");
+    background-size: cover;
+}
+
+footer .colorWhite{
+    color: white;
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+}
